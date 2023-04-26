@@ -1,0 +1,44 @@
+/*
+Theme Name: Test Theme 1
+Author: XXX
+Version: 1.0
+*/
+
+
+body{
+  color: #101010;
+}
+#menu-head-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  list-style: none;
+}
+#menu-head-menu .menu-item {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#menu-head-menu .menu-item:last-child {
+  margin-right: 0;
+}
+
+#menu-head-menu .menu-item a {
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#menu-head-menu .menu-item:hover a {
+  color: #fff;
+  background-color: #333;
+}
+.big-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
