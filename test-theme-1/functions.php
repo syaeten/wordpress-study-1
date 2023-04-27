@@ -12,7 +12,7 @@ add_action('wp_enqueue_scripts', 'add_css');
 
 function add_features()
 {
-  register_nav_menu('headerMunuLocation', 'Header Munu Location');
+  register_nav_menu('headerMenuLocation', 'Header Menu Location');
   register_nav_menu('footerLocation', 'Footer Location');
 
   add_theme_support('title-tag');

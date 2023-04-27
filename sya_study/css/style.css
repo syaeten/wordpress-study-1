@@ -1,0 +1,45 @@
+/*
+Theme Name: ツクルデ_study
+Author: シャ
+Author URI:
+Description: ツクルデサイト勉強用の自作テーマです！
+Version: 1.0
+*/
+
+
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  height: 103px;
+  line-height: 103px;
+  justify-content: space-between;
+  align-items: center;
+  
+  width: 95%;
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+.header .header-logo{
+  width: 170px;
+}
+
+.header nav ul{
+  font-size: 14px;
+  display: inline-flex;
+  list-style-type:none;
+}
+
+.header nav a{
+  color:#343432;
+  text-decoration:none ;
+  padding: 0 15px;
+}
+.header nav a:hover{
+  color:#000000; 
+}
