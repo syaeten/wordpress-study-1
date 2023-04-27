@@ -72,6 +72,19 @@ body {
 }
 
 
-
-
+.flow-head{
+  text-align: center;
+}
+.page-front .flow-head img{
+  width: 6%;
+}
+.page-front .flow-head h2{
+  margin: 0;
+}
+.page-front .flow-box{
+  display: flex;
+}
+.page-front .flow-box .flow-item{
+  background-color: #F5F5F5;
+}
 
