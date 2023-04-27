@@ -10,19 +10,22 @@ Version: 1.0
 
 body {
   font-family: 'Noto Sans JP', sans-serif;
+  margin:0;
+}
+
+.bg-img{
+  width: 100%;
 }
 
 .header {
   background-color: #fff;
   display: flex;
-  height: 103px;
-  line-height: 103px;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
   
   width: 95%;
-  margin-left: auto; 
-  margin-right: auto;
+  margin:0 auto; 
 
 }
 .header .header-logo{
@@ -30,7 +33,7 @@ body {
 }
 
 .header nav ul{
-  font-size: 14px;
+  font-size: 16px;
   display: inline-flex;
   list-style-type:none;
 }
@@ -38,8 +41,37 @@ body {
 .header nav a{
   color:#343432;
   text-decoration:none ;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 .header nav a:hover{
   color:#000000; 
 }
+
+.page-front .service-imgs{
+  position: relative;
+}
+.page-front .service-img{
+  position: absolute;
+  width: 30%;
+}
+.page-front #service_seizou {
+  bottom: -57%;
+  left: 0;
+}
+.page-front #service_zaiko {
+  top: 24%;
+  left: 0;
+}
+.page-front #service_zyuhattyu {
+  bottom: -34%;
+  right: 0;
+}
+.page-front #service_kiroku {
+  top: -32%;
+  right: 0;
+}
+
+
+
+
+
