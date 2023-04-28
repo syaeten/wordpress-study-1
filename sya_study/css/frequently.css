@@ -2,7 +2,9 @@
 よく使うcssのもの
 */
 
-
+.flex-wrap{
+  display:flex;
+}
 .flex-center-box{
   display:flex;
   align-items: center ;

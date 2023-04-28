@@ -54,29 +54,47 @@ body {
   height:960px;
   background-color: #F5F5F5;
 }
+.page-front .service-page .service-page-title{
+  position: absolute;
+  font-weight: bold;
+  left: 12%;
+  top:10%;
+}
+.page-front .service-page .service-page-title img{
+  height: 41px;
+}
+.page-front .service-page .service-page-title h2{
+  margin: 0 0 0 30px;
+  font-size: 34px;
+}
+
 .page-front .service-page .service-img-main{
+  padding-bottom: 92px;
   width: 47%;
 }
 .page-front .service-img{
   position: absolute;
-  width: 30%;
-}
-.page-front #service_seizou {
-  bottom: 10%;
-  left: 0;
-}
-.page-front #service_zaiko {
-  top: 24%;
-  right: 0;
-}
-.page-front #service_zyuhattyu {
-  bottom: 30%;
-  right: 0;
 }
 .page-front #service_kiroku {
-  top: 32%;
+  top: 36%;
   left: 0;
+  width: 34%;
+}.page-front #service_seizou {
+  bottom: 10%;
+  left: 0;
+  width: 57%;
 }
+.page-front #service_zaiko {
+  top: 21%;
+  right: 0;
+  width: 40%;
+}
+.page-front #service_zyuhattyu {
+  bottom: 26%;
+  right: 0;
+  width: 39%;
+}
+
 
 
 
