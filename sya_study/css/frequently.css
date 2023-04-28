@@ -1,0 +1,13 @@
+/*
+よく使うcssのもの
+*/
+
+
+.flex-center-box{
+  display:flex;
+  align-items: center ;
+  justify-content: center;
+}
+.flex-column{
+  flex-direction:column
+}

@@ -13,6 +13,8 @@ body {
   margin:0;
 }
 
+
+
 .bg-img{
   width: 100%;
 }
@@ -47,44 +49,63 @@ body {
   color:#000000; 
 }
 
-.page-front .service-imgs{
+.page-front .service-page{
   position: relative;
+  height:960px;
+  background-color: #F5F5F5;
+}
+.page-front .service-page .service-img-main{
+  width: 47%;
 }
 .page-front .service-img{
   position: absolute;
   width: 30%;
 }
 .page-front #service_seizou {
-  bottom: -57%;
+  bottom: 10%;
   left: 0;
 }
 .page-front #service_zaiko {
   top: 24%;
-  left: 0;
+  right: 0;
 }
 .page-front #service_zyuhattyu {
-  bottom: -34%;
+  bottom: 30%;
   right: 0;
 }
 .page-front #service_kiroku {
-  top: -32%;
-  right: 0;
+  top: 32%;
+  left: 0;
 }
 
 
-.flow-head{
-  text-align: center;
-}
-.page-front .flow-head img{
+
+.page-front .flow-page img{
   width: 6%;
 }
-.page-front .flow-head h2{
+.page-front .flow-page h2{
   margin: 0;
 }
-.page-front .flow-box{
-  display: flex;
+.page-front .flow-page-box{
+  margin: 60px auto 0 auto;
 }
-.page-front .flow-box .flow-item{
+.page-front .flow-page-box .flow-page-item{
+  min-height: 465px;
   background-color: #F5F5F5;
+  margin-bottom: 100px;
+  padding: 35px 20px 20px 20px;
 }
+.page-front .flow-page-box .flow-page-item .flow-title{
+  width: 200px;
+}
+.page-front .flow-page-box .flow-page-item .flow-figure{
+  width: 200px;
+  margin-bottom: 56px;
+}
+
+
+
+
+
+
 

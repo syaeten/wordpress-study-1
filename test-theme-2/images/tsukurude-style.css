@@ -484,7 +484,7 @@
     display: block;
   }
 }
-.flow .flow-item {
+.flow .flow-page-item {
   position: relative;
   min-height: 465px;
   padding: 35px 20px 20px 20px;
@@ -494,12 +494,12 @@
   visibility: hidden;
 }
 @media (max-width: 1080px) {
-  .flow .flow-item {
+  .flow .flow-page-item {
     margin-bottom: 100px;
   }
 }
 @media (max-width: 550px) {
-  .flow .flow-item {
+  .flow .flow-page-item {
     width: -moz-fit-content;
     width: fit-content;
     margin: 70px auto;
@@ -517,7 +517,7 @@
   width: 200px;
   margin-bottom: 56px;
 }
-.flow .flow-item p {
+.flow .flow-page-item p {
   font-size: 15px;
   font-weight: bold;
 }
@@ -533,34 +533,34 @@
     display: none;
   }
 }
-.flow .flow-item:nth-of-type(1) {
+.flow .flow-page-item:nth-of-type(1) {
   z-index: 4;
 }
-.flow .flow-item:nth-of-type(1) .flow-item__headline {
+.flow .flow-page-item:nth-of-type(1) .flow-item__headline {
   width: 200px;
 }
-.flow .flow-item:nth-of-type(2) {
+.flow .flow-page-item:nth-of-type(2) {
   z-index: 3;
 }
-.flow .flow-item:nth-of-type(2) .flow-item__headline {
+.flow .flow-page-item:nth-of-type(2) .flow-item__headline {
   width: 160px;
 }
 @media (max-width: 1080px) {
-  .flow .flow-item:nth-of-type(2) .flow-item__arrow {
+  .flow .flow-page-item:nth-of-type(2) .flow-item__arrow {
     display: none;
   }
 }
-.flow .flow-item:nth-of-type(3) {
+.flow .flow-page-item:nth-of-type(3) {
   z-index: 2;
 }
-.flow .flow-item:nth-of-type(3) .flow-item__headline {
+.flow .flow-page-item:nth-of-type(3) .flow-item__headline {
   width: 140px;
 }
-.flow .flow-item:nth-of-type(4) {
+.flow .flow-page-item:nth-of-type(4) {
   z-index: 1;
   background: #ffcfcf;
 }
-.flow .flow-item:nth-of-type(4) .flow-item__headline {
+.flow .flow-page-item:nth-of-type(4) .flow-item__headline {
   width: 160px;
 }
 
@@ -568,10 +568,10 @@
   .fix-form-container .flow .flow-wrap {
     width: 610px;
   }
-  .fix-form-container .flow-item {
+  .fix-form-container .flow-page-item {
     margin: 70px auto;
   }
-  .fix-form-container .flow-item:nth-of-type(2) .flow-item__arrow {
+  .fix-form-container .flow-page-item:nth-of-type(2) .flow-item__arrow {
     display: none;
   }
 }

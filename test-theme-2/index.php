@@ -14356,7 +14356,7 @@
       <h2 class="section-title">導入までの流れ</h2>
     </div>
     <div class="flow-wrap">
-      <div class="flow-item flow-item1 ">
+      <div class="flow-page-item flow-item1 ">
         <img class="flow-item__headline" src="<?php echo get_template_directory_uri(); ?>/images/flow_title1.png">
         <img class="flow-item__figure" src="<?php echo get_template_directory_uri(); ?>/images/flow01_sozai.svg">
         <p>
@@ -14368,7 +14368,7 @@
         </p>
         <img class="flow-item__arrow" src="<?php echo get_template_directory_uri(); ?>/images/flow_arrow.svg">
       </div>
-      <div class="flow-item flow-item2 ">
+      <div class="flow-page-item flow-item2 ">
         <img class="flow-item__headline" src="<?php echo get_template_directory_uri(); ?>/images/flow_title2.png">
         <img class="flow-item__figure" src="<?php echo get_template_directory_uri(); ?>/images/flow02_sozai.svg">
         <p>
@@ -14380,7 +14380,7 @@
         </p>
         <img class="flow-item__arrow" src="<?php echo get_template_directory_uri(); ?>/images/flow_arrow.svg">
       </div>
-      <div class="flow-item flow-item3 ">
+      <div class="flow-page-item flow-item3 ">
         <img class="flow-item__headline" src="<?php echo get_template_directory_uri(); ?>/images/flow_title3.png">
         <img class="flow-item__figure" src="<?php echo get_template_directory_uri(); ?>/images/flow03_sozai.svg">
         <p>
@@ -14389,7 +14389,7 @@
         </p>
         <img class="flow-item__arrow" src="<?php echo get_template_directory_uri(); ?>/images/flow_arrow.svg">
       </div>
-      <div class="flow-item flow-item4 ">
+      <div class="flow-page-item flow-item4 ">
         <img class="flow-item__headline" src="<?php echo get_template_directory_uri(); ?>/images/flow_title4.png">
         <img class="flow-item__figure" src="<?php echo get_template_directory_uri(); ?>/images/flow04_sozai.svg">
         <p>
