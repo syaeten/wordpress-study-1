@@ -51,7 +51,7 @@ body {
 
 .page-front .service-page{
   position: relative;
-  height:960px;
+  height:160vh;
   background-color: #F5F5F5;
 }
 .page-front .service-page .service-page-title{
@@ -69,28 +69,28 @@ body {
 }
 
 .page-front .service-page .service-img-main{
-  padding-bottom: 92px;
+  padding-bottom: 150px;
   width: 47%;
 }
 .page-front .service-img{
   position: absolute;
 }
 .page-front #service_kiroku {
-  top: 36%;
+  top: 34%;
   left: 0;
   width: 34%;
 }.page-front #service_seizou {
-  bottom: 10%;
+  bottom: 7%;
   left: 0;
   width: 57%;
 }
 .page-front #service_zaiko {
-  top: 21%;
+  top: 19%;
   right: 0;
   width: 40%;
 }
 .page-front #service_zyuhattyu {
-  bottom: 26%;
+  bottom: 22%;
   right: 0;
   width: 39%;
 }
@@ -106,18 +106,30 @@ body {
 }
 .page-front .flow-page-box{
   margin: 60px auto 0 auto;
+  max-width: 1160px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .page-front .flow-page-box .flow-page-item{
+  display: flex;
+  flex-direction: column;
   min-height: 465px;
   background-color: #F5F5F5;
   margin-bottom: 100px;
   padding: 35px 20px 20px 20px;
 }
+.page-front .flow-page-box .flow-page-item p{
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 200px;
+}
 .page-front .flow-page-box .flow-page-item .flow-title{
   width: 200px;
 }
 .page-front .flow-page-box .flow-page-item .flow-figure{
-  width: 200px;
+  height: 200px;
+  width: auto;
+  max-width: 200px;
   margin-bottom: 56px;
 }
 
