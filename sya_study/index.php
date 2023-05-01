@@ -3,6 +3,12 @@
 <main class="page-front">
 
   <!-- Top画像の部分 -->
+  <div class='right-banner'>
+    <img class='banner-svg' src="<?php echo get_template_directory_uri() . '/image/banner.svg' ?>" alt="banner_svg">
+    <a href="" class='contact-btn'>
+      <img src="<?php echo get_template_directory_uri() . '/image/contact_btn.svg' ?>" alt="contact_btn">
+    </a>
+  </div>
   <img class='bg-img' src="<?php echo get_template_directory_uri() . '/image/top_main_img.png' ?>" alt="top_main_img">
 
   <!-- サービス一覧の部分 -->
@@ -55,6 +61,18 @@
         <p>導入支援サービスを申込みいただいたお客様に現地またはオンラインでの支援をさせていただきます。</p>
       </div>
     </div>
+  </div>
+
+
+  <div class='qa-page'>
+    <h3>Q&A</h3>
+    <h2>よくあるご質問</h2>
+    <h4>Q1. セキュリティはどうなっていますか?</h4>
+    <p>A.世界シェアNo.1のAWS（Amazon Web Service）サーバー上にデータを保管しているので、安全で快適に利用可能です。</p>
+    <h4>Q2. 対応するデバイスについて教えてください。</h4>
+    <p>A.現場で記録するには、iOS・Androidに対応するスマートフォン・タブレットが必要となります。iOS 12.0 以上（100MB以上のメモリ空き容量） Android 7.0 以上（100MB以上のメモリ空き容量）
+    </p>
+
   </div>
 
 
