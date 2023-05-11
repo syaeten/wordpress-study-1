@@ -29,16 +29,9 @@ wp_enqueue_style: css fileを直接キューに入れる
 function add_css()
 {
   $version = wp_get_theme()->get('Version');
-  wp_register_style(
+  wp_enqueue_style(
     'reset',
     get_template_directory_uri() . '/css/reset.min.css',
-    array(),
-    $version,
-    false
-  );
-  wp_enqueue_style(
-    'main',
-    get_template_directory_uri() . '/css/style.css',
     array(),
     $version,
     false
@@ -53,6 +46,13 @@ function add_css()
   wp_enqueue_style(
     'front-page',
     get_template_directory_uri() . '/css/front-page.css',
+    array(),
+    $version,
+    false
+  );
+  wp_enqueue_style(
+    'footer',
+    get_template_directory_uri() . '/css/footer.css',
     array(),
     $version,
     false

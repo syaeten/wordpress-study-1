@@ -7,8 +7,8 @@
   position: absolute;
   right: 0;
   top:70%;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  width: 100%;
+  height: 100%;
 }
 .page-front .banner-svg{
   position: absolute;
@@ -135,8 +135,21 @@
 }
 
 
-
-
+.page-front .qa-page .qa-item {
+  margin: 20px 0;
+}
+.page-front .qa-page h2{
+  font-weight: bold;
+  font-size: 34px;
+}
+.page-front .qa-page .qa-item h4{
+  font-size: 23px;
+  color: #af2020;
+}
+.page-front .qa-page .qa-item p{
+  margin-left: 10px;
+  font-weight: bold;
+}
 
 
 
