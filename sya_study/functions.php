@@ -57,6 +57,13 @@ function add_css()
     $version,
     false
   );
+  wp_enqueue_style(
+    'single',
+    get_template_directory_uri() . '/css/single.css',
+    array(),
+    $version,
+    false
+  );
 }
 
 add_action('wp_enqueue_scripts', 'add_css');
