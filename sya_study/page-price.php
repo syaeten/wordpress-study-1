@@ -1,3 +1,9 @@
+<?php
+
+/**
+ * Template Name: Price Page
+ */
+?>
 <?php get_header(); ?>
 
 

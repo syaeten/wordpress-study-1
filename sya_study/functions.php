@@ -30,6 +30,14 @@ function add_css()
 {
   $version = wp_get_theme()->get('Version');
   wp_enqueue_style(
+    'style',
+    get_template_directory_uri() . '/style.css',
+    array(),
+    $version,
+    false
+  );
+
+  wp_enqueue_style(
     'reset',
     get_template_directory_uri() . '/css/reset.min.css',
     array(),
@@ -93,7 +101,7 @@ function post_has_archive($args, $post_type)
 {
   if ('post' == $post_type) {
     $args['rewrite'] = true;
-    $args['has_archive'] = 'news'; //任意のスラッグ名
+    $args['has_archive'] = 'info'; //任意のスラッグ名
   }
   return $args;
 }
@@ -163,3 +171,14 @@ function remove_block_editor_options()
   remove_post_type_support('post', 'trackbacks');          // トラックバック
   unregister_taxonomy_for_object_type('post_tag', 'post'); // タグ
 }
+
+function custom_post_type()
+{
+  $args = array(
+    'public' => true,
+    'has_archive' => true, // 设置是否具有存档页面
+    // 其他设置...
+  );
+  register_post_type('your_custom_post_type', $args);
+}
+add_action('init', 'custom_post_type');
