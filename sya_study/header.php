@@ -8,7 +8,7 @@
 
   <!-- Chromeのバグ対策用 -->
   <script>
-    console.log("")
+  console.log("")
   </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
