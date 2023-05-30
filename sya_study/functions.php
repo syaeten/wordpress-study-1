@@ -38,6 +38,13 @@ function add_css()
   );
 
   wp_enqueue_style(
+    'public',
+    get_template_directory_uri() . '/css/public.css',
+    array(),
+    $version,
+    false
+  );
+  wp_enqueue_style(
     'reset',
     get_template_directory_uri() . '/css/reset.min.css',
     array(),

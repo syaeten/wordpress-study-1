@@ -12,7 +12,42 @@
  transform: translate(-50%, -50%);
 }
 
+.single-page .single_thumbnail{
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
 
+.single-page .single_content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center ;
+
+}
+.single-page .single_content p{
+  font-size: 17px;
+  max-width: 900px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+.single-page .single_content p a{
+  color: #f43b3b;
+}
+
+.single-page .single_content  .wp-block-group{
+  padding-bottom: 20px;
+}
+
+
+.single-page .wp-block-button__link{
+  border-radius: 5px;
+  background-color: #f43b3b;
+}
+.single-page .wp-block-buttons{
+  background-color: #f6f6f6;
+}
 
 
 
