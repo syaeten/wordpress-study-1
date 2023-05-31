@@ -25,9 +25,12 @@
   align-items: center ;
 
 }
+.single-page .single_content > * {
+  max-width: 900px;
+  
+}
 .single-page .single_content p{
   font-size: 17px;
-  max-width: 900px;
   font-weight: bold;
   line-height: 1.8;
 }
@@ -41,12 +44,17 @@
 }
 
 
+.single-page .wp-block-buttons{
+  background-color: #f6f6f6;
+  width: 100%;
+  display:flex;
+  align-items: center ;
+  justify-content: center;
+  padding: 60px 0;
+}
 .single-page .wp-block-button__link{
   border-radius: 5px;
   background-color: #f43b3b;
-}
-.single-page .wp-block-buttons{
-  background-color: #f6f6f6;
 }
 
 

@@ -79,6 +79,13 @@ function add_css()
     $version,
     false
   );
+  wp_enqueue_style(
+    'archive',
+    get_template_directory_uri() . '/css/archive.css',
+    array(),
+    $version,
+    false
+  );
 }
 
 add_action('wp_enqueue_scripts', 'add_css');

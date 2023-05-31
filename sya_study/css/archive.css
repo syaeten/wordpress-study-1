@@ -1,0 +1,16 @@
+.archive-page .archives{
+  display: flex;
+}
+
+.archive-page .archives .archive-card{
+  width: 300px;
+}
+
+
+.archive-page  .archive-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
