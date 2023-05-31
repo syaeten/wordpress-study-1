@@ -6,11 +6,14 @@
   width: 300px;
 }
 
-
+/*
+【object-fit】について：
+https://developer.mozilla.org/ja/docs/Web/CSS/object-fit
+*/
 .archive-page  .archive-card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: cover; 
 }
 
 
