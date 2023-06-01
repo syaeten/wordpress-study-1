@@ -16,4 +16,10 @@ https://developer.mozilla.org/ja/docs/Web/CSS/object-fit
   object-fit: cover; 
 }
 
+.archive-page .archive-footer {
+  color: #999;
+}
+.archive-page .archive-footer  span{
+  margin: 0 5px;
+}
 
