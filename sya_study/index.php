@@ -1,3 +1,9 @@
+<?php
+
+/**
+ * Template Name: Top Page
+ */
+?>
 <?php get_header(); ?>
 
 <main class="page-front">

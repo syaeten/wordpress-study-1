@@ -10,7 +10,8 @@
 <div class="archive-page">
 
   <div>
-    <a href="<?php home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/image/icon_metro_home.svg" alt=""></a>
+    <!-- *Don't  forget the 'echo' or it will not work!!!!! -->
+    <a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/image/icon_metro_home.svg" alt=""></a>
   </div>
 
   <div class="archives">
